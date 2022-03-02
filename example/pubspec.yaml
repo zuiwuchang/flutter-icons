@@ -7,10 +7,11 @@ description: A new Flutter application.
 # Both the version and the builder number may be overridden in flutter
 # build by specifying --build-name and --build-number, respectively.
 # Read more about versioning at semver.org.
-version: 1.0.0+1
+version: 2.0.0
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.16.1 <3.0.0"
+  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
@@ -19,17 +20,15 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  flutter_icons:
-#    path: ../
-     git:
-       url: https://github.com/flutter-studio/flutter-icons.git
-       ref: 1.1.0
+  king011_icons:
+    path: ../
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  # split_icon: ^0.2.0  
+  # split_icon: ^0.2.0
 
-flutter_icons:
+king011_icons:
   includes:
     - ant
 # For information on the generic Dart part of this file, see the
@@ -37,7 +36,6 @@ flutter_icons:
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

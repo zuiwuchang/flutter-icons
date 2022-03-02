@@ -1,4 +1,4 @@
-library flutter_icons;
+library king011_icons;
 
 export 'src/ionicons.dart';
 export 'src/ant_design.dart';
@@ -15,6 +15,5 @@ export 'src/foundation.dart';
 export 'src/font_awesome_5.dart';
 export 'src/font_awesome_5_solid.dart';
 export 'src/font_awesome_5_brands.dart';
-export 'src/icon_toggle.dart';
 export 'src/weather_icons.dart';
 export 'src/flutter_icons.dart';

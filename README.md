@@ -1,8 +1,8 @@
 English | [简体中文](./README_zh-CN.md)
 
-# flutter_icons
+# king011_icons
 
-[![pub package](https://img.shields.io/pub/v/flutter_icons.svg)](https://pub.dartlang.org/packages/flutter_icons)
+[![pub package](https://img.shields.io/pub/v/king011_icons.svg)](https://pub.dartlang.org/packages/king011_icons)
 
 Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
@@ -31,7 +31,7 @@ Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://g
 * [`Weather Icons`](https://erikflowers.github.io/weather-icons/) by erikflowers (v2.0.10, **596** icons)
 
 ## Usage
-To use this plugin, add `flutter_icons` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `king011_icons` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ## Widget
 
@@ -54,7 +54,7 @@ To use this plugin, add `flutter_icons` as a [dependency in your pubspec.yaml fi
 
 ``` dart
 // Import package
-import 'package:flutter_icons/flutter_icons.dart';
+import 'package:king011_icons/king011_icons.dart';
 import 'package:flutter/material.dart';
 
 // 1.0.0 version used
@@ -128,7 +128,7 @@ Add the font you want to leave in the project's pubspec file
 
 ...
 
-flutter_icons:
+king011_icons:
   includes:
     -ant 
     -mco
