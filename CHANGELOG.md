@@ -1,3 +1,6 @@
+## 2.0.0
+   nullsafe
+
 ## 1.1.0
    * The FlutterIcons class is provided to access all Icons
 
